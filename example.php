@@ -8,7 +8,7 @@ $hash = sha1($apiKey.$apiSecret.$apiHeaderTime);
 
 //Set the required headers  
 $headers = [  
-    "User-Agent: SuperPodcastPlayer/1.3",  
+    "User-Agent: php-podcastindex-org-example/1.3",  
     "X-Auth-Key: $apiKey",  
     "X-Auth-Date: $apiHeaderTime",  
     "Authorization: $hash"  
